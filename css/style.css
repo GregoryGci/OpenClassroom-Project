@@ -10,66 +10,78 @@ A CORRIGER : - Filtre double bordure
              - alt dans balise image pour décrire l'image au cas ou elle ne charge pas
 
 */
-
+@import url(normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     font-family: 'Raleway', sans-serif;
 }
 body { 
-    padding-top: 30px;
+    margin-top: 40px;
 }
 header {
-    margin-left: 3.5%;
-    margin-right: 3.5%;
+    margin-left:55px;
+    margin-right:auto;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 3%;
+    justify-content:space-between ;
+    align-items: center;
 }
-.booki {
-    width: 101px;
-    height:48px;
+
+/* CSS HEADER */
+
+.booki-img {
+    width: 16%;
+    height:auto;
+}
+.div-logo{
+    width: 50%;
+}
+.navbar-booki{
+    width: 80%;
 }
 navbar ul {
     list-style-type:none;
     display: flex;
+    justify-content: space-evenly;
+    padding-left: 50%;
 }
-navbar li {
-    margin-right: 20%;
-}
-a { 
+a {
     text-decoration: none;
     color:grey ;
 }
 navbar ul li a:visited {
     color:none;
 }
-navbar ul li a {
-    padding: 30px 0px 0px 10px
-}
 navbar ul li a:hover{
     color: #0065FC;
-    border-top: 3px solid #0065FC;
+    border-top:2px solid #0065FC;
+    padding-top:53px;
 }
+
+
+/* CSS MAIN PAGE */
 
 .top-page{
-    margin-left:3.5%;
+    margin-left:55px;
+    margin-top: 30px;
 }
-.strongheber {
-    font-size: 68%;
+.h1-main{
+    font-weight: bold;
+    font-size: 140%;
+    margin: 0;
 }
-.centre {
-    font-size: 64%;
-    color: rgb(91, 91, 91);
+.h2-main{
+    font-size: 100%;
+    margin: 0;
+    font-weight:500;
+    }
+
+/*  CSS BAR DE RECHERCHE */
+.Searchbar-section{
+    margin-top: 20px;
 }
-
-
-
-
-
-
 .form {
-    border: solid 1px #F2F2F2;
+    border: solid 0.5px #F2F2F2;
     border-radius: 15px 15px 15px 15px;
     width: 400px;
     padding-left: 20px;
@@ -103,32 +115,38 @@ navbar ul li a:hover{
 }    
 
 
-
+/* CSS FILTRE */
 .filtre{
-    margin-left:3.5%;
+    margin-top: 30px;
 }
 .filtre ul {
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    width:70%;
     font-weight: bold;
-    padding:0px;
+    padding:0;
     list-style-type: none;
     font-size: 18px;
+    flex-wrap: wrap;
 } 
-.txt-filtre{
+.filtre ul li {
+    padding-right:18px;
+}
+.filtres{
+    flex-wrap: wrap;
+}
+.txt-filtre {
     color: black;
 }
-.eco-filtre{
-    border-radius:60px 60px 60px 60px;
+.filtre-entier {
+    border-radius:60px 60px 50px 50px;
     border: solid #d2d2d2;
-    padding:13px 13px 10px 0px;
+    padding:13.5px 13.5px 10px 0px;
     border-width: 2px;
-    border-left: none; 
+    border-left: none;
 }
 
-.fa-dog {
+.filtre .fa-solid{
+    color:#0065FC;
     border: solid;
     border-radius: 60px 60px 60px 60px;
     padding: 16px;
@@ -136,45 +154,14 @@ navbar ul li a:hover{
     background-color: #DEEBFF;
     font-size: 18px;
     margin-right: 12px;
-    color:#0065FC;
 }
-.fa-heart {
-    border: solid;
-    border-radius: 60px 60px 60px 60px;
-    padding: 16px;
-    border-width: 0px;
-    background-color: #DEEBFF;
-    font-size: 18px;
-    margin-right: 12px;
-    color:#0065FC;
-}
-.fa-child-reaching {
-    border: solid;
-    border-radius: 60px 60px 60px 60px;
-    padding: 16px 18px;
-    border-width: 0px;
-    background-color: #DEEBFF;
-    font-size: 20px;
-    margin-right: 12px;
-    color:#0065FC;
-}
-.fa-money-bill-wave {
-    border: solid;
-    border-radius: 60px 60px 60px 60px;
-    padding: 16px 15px;
-    border-width: 0px;
-    background-color: #DEEBFF;
-    font-size: 18px;
-    
-    color:#0065FC;
-}
+
 
 
 
 
 
 .info {
-    margin-left: 55px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -201,116 +188,86 @@ navbar ul li a:hover{
 
     
 
-/*******************************************  *******************************************/
-
-.part1{
-    width:100%;
-    display: flex;
-}
-main{
-    display: flex;
-    width: 100%;
-    
-}
-.fa-star {
-	color: #0065FC;
-    font-size: 12px;
-    width: 10px;
-}
-
-.main1{
-    width: 70%;
-    height:600px;
-    padding: 40px 40px 0px 40px;
-    border: solid 1px none;
-    border-radius: 20px;
-    background-color: #F2F2F2;
+/* CCS section 1 */
+.section1{
     margin-left: 55px;
-    margin-right: 40px;
-}
-
-.hebertxt{
-    display: inline-block;
-    font-size: 22px;
-}
-.heber-part1{
+    margin-right: 70px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.heber-part1 img{
-    width: 230px;
-    height: 110px;
-    border-radius: 20px 20px 0px 0px;
+.texte-article-hotel{
+    padding-left: 10px;
 }
-
-.heber-part2{
-    display: flex;
-    justify-content: space-around;
-    
+.h3-main{
+    font-size: 100%;
+    margin: 0;
+    padding-top: 4px;
 }
-.heber-part2 img{
-    width: 230px;
-    height: 110px;
-    border-radius: 20px 20px 0px 0px;
+.tarif{
+    font-size: 85%;
+    margin: 0;
+    padding-top: 4px;
 }
 
-
-.main2{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border: solid 1px none;
-    border-radius: 20px;
-    background-color: #F2F2F2;
-    padding: 10px 120px 10px 120px;
+.icone-star{
+    font-size: 60%;
+    padding-top: 4px;
 }
-.main2 img{
-    width: 200px;
-    height: 100px;
+/* CSS hebergement-a-marseille */
+.hebergement-a-marseille{
+    background-color:#F2F2F2;
+    width: 66%;
+    padding: 40px 40px 40px 40px;
+
+}
+.hebergement-a-marseille img{
+    width:100%;
+    height:auto;
+    object-fit:cover;
+    border-radius: 20px 20px 0px 0px ;
 }
 
-.cannebiere,.hotel-du-port,.hotel-les-mouettes,.hotel-de-la-mer,.auberge-le-panier,.hotel-chez-anima{
-    border: solid 1px none;
-    border-radius: 20px;
+.article-hotel{
+    width: 28%;
+    height: auto%;
     background-color: white;
-    padding: 5px;
-    margin: 15px;
-    box-shadow: 1px 1px 16px 10px rgb(227, 227, 227);
-}
-
-.nuit {
-    font-size: 14px;
-}
-
-main p{
-    line-height:7px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 1px;
+    padding-bottom
 }
 
 
 
-.plus{
-    padding-top: 20px;
+
+
+
+
+/* CSS les-plus-populaires */
+.les-plus-populaires{
+    background-color: black;
+    width: 31%;
 }
-
-
 
 /*******************************************  *******************************************/
 
 footer{
-    
+    background-color:#F2F2F2;
     display: flex;
-    justify-content: flex-start;
-    background-color:#F2F2F2 ;
-   
-   
-      
-    }
+    
+}
+.footer-propos,.footer-hebergements,.footer-assistance{
+    width: 70%;
+    margin-left: 55px;
+}
 
-footer li{    
-   
-    list-style-type:none;
-    margin-top: 10px;
-    
-    
+footer ul{    
+    list-style:none;
+    padding: 0;
+    width: 70%;
+}
+
+footer ul li {
+    padding-top: 14px;
 }
         
