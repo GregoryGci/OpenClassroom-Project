@@ -1,0 +1,177 @@
+/* Section Hébergements à Marseille */
+.fa-icon-hebergement[data-active=true] {
+	color: #0065FC;
+  }
+
+.fa-icon-hebergement[data-active=false] {
+	color: #d9d9d9;
+  }
+
+
+.hebergement-main
+{
+	display: flex;
+	margin-top: 10px;
+	margin-left:35px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.hebergements
+{
+	background: #F2F2F2;
+	border-radius: 20px;
+	width: 60%; 
+	height: 636px;  
+	margin: auto;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.card-hebergement
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+article
+{
+	width: 30% ;   
+	border: 5px solid white; 
+	border-radius: 20px;
+	box-shadow: 0 4px 4px #c0c0c0;
+	line-height: 10px;
+	margin-top: 25px;	
+	background-color: white;
+}
+
+article img
+{
+	margin-top: -15px;
+	width: 100%;
+	height: 110px;
+	border-radius: 20px 20px 0 0;
+	object-fit: cover;
+}
+
+.caption {
+	margin: 10px;
+	line-height: 15px;	
+}
+
+.prix {
+	font-weight: bold;
+}
+.acard {
+    text-decoration: none;
+    color:rgb(0, 0, 0) ;
+}
+ .acard:visited {
+    color:none;
+}
+
+.afficherplus{
+	padding-top: 20px;
+}
+.afficher-plus {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+    color:rgb(0, 0, 0) ;	
+}
+
+
+.afficher-plus:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+
+/* Section "Les plus populaires" */
+.titre-marseille{
+	margin-bottom: -20px;
+}
+aside {
+
+	background: #F2F2F2;
+	border-radius: 20px;
+	display: flex;
+    width: 27%; 
+	flex-direction: column;
+	margin: auto;
+	height: 636px; 
+	justify-content: space-around;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.bloc-populaire figure {
+
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid #ffffff;
+	border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: 0 4px 4px #c0c0c0;
+	background-color: white;
+}
+
+.bloc-populaire img {
+	width: 35%;
+	border-radius: 20px 0 0 20px;
+	height: 150px;
+	margin-top: 1px;
+	object-fit: cover;
+}
+
+.bloc-populaire figcaption {
+	height: 135px;
+	width: 65%;
+	border-radius: 0 20px 20px 0;
+	margin-left: 10px;
+    line-height: 15px;
+}
+
+.bloc-populaire a {
+	text-decoration: none;
+}
+
+.bloc-populaire .ranking
+{
+	margin-top: 45px;
+}
+
+.fa-chart-line
+{
+	margin-right: 25px;
+}
+
+.ranking
+{
+	color: #0065FC;
+}
+
+figcaption span
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+.titre-populaire
+{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 25px;
+	padding-top: 10px;
+}

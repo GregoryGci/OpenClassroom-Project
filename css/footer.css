@@ -1,0 +1,21 @@
+footer{
+    background-color:#F2F2F2;
+    display: flex;
+    margin-left: -5px;
+    
+}
+.footer-propos,.footer-hebergements,.footer-assistance{
+    width: 70%;
+    margin-left: 55px;
+}
+
+footer ul{    
+    list-style:none;
+    padding: 0;
+    width: 70%;
+}
+
+footer ul li {
+    padding-top: 14px;
+}
+        

@@ -1,0 +1,132 @@
+.section-activitees {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 8px;
+    }
+
+.h2-activitémarseille{
+    margin-left: 40px;
+    margin-bottom: -10px;
+    margin-top: 70px;
+}
+
+
+.activite-vieux-port {
+    width: 25%;
+    display: flex;
+    height: auto;
+    
+}
+
+    .card-vieuxport {
+        margin: 0;
+        border-radius: 20px;
+        box-shadow: 0 4px 4px #c0c0c0;
+    }
+        .img-vieuxport {
+            object-fit: cover;
+            width: 100%;
+            height:400px;
+            
+        }
+
+.activite-fort-frioul {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    
+}
+    .card-pomegues {
+        margin: 0;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        box-shadow: 0 4px 4px #c0c0c0;
+    }
+        .img-pomegues {
+            object-fit: cover; 
+            width: 100%;
+            height: 190px;
+            }
+        
+
+    .card-frioul {
+        margin: 0;
+        border-radius: 20px;
+        box-shadow: 0 4px 4px #c0c0c0;
+    }
+        .img-frioul {
+            object-fit: cover;
+            width: 100%;
+            height: 100px;
+        }
+
+
+.activite-calanques {
+    display: flex;
+    width: 25%;
+}
+    .card-calanques {
+        margin: 0;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+	    box-shadow: 0 4px 4px #c0c0c0;
+    }
+        .img-calanques {
+            object-fit: cover;
+            width: 100%;
+            height:400px;
+        }
+
+
+.activite-garde-longchamps {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+}     
+    .card-garde {
+        margin: 0;
+        margin-bottom: 50px;
+        border-radius: 20px;
+	    box-shadow: 0 4px 4px #c0c0c0;
+    }
+        .img-garde {
+            object-fit: cover;
+            width: 100%;
+            height: 144px;
+        }
+
+    .card-longchamps {
+        margin: 0;
+        border-radius: 20px;
+	    box-shadow: 0 4px 4px #c0c0c0;
+    }
+        .img-longchamps {
+            object-fit: cover;
+            width: 100%;
+            height: 143px;
+        }
+
+
+img.act{
+    border-radius: 20px 20px 0px 0px;
+}
+
+div.divact {
+    margin: 20px;
+}
+
+.titre.activite{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.lien-activite{
+    text-decoration: none;
+    color:black ;
+    transition: transform .1s;
+}
+
+.lien-activite:hover{
+    transform: scale(1.01);
+}
