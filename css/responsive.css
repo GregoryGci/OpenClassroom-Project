@@ -1,0 +1,125 @@
+/* MEDIA TABLETTE */
+@media screen and (max-width: 993px) 
+	{
+		/* ---------LOGO---------- */
+.booki-img {
+    width: 90px;
+    height:auto;
+}
+
+/*------------ FILTRE ---------------*/
+.filtre-entier{
+	padding-top: 10px;
+}
+
+/* ------------HEBERGEMENT-------------- */
+.hebergement-main{
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	margin-right:30px ;
+	margin-left:55px ;
+}
+
+
+.hebergements{
+	margin-bottom: 30px;
+	width: auto;
+	
+}
+aside{
+	width: 100%;
+	margin: auto;
+	padding: 0;
+}
+}
+
+
+/*--------------------------- MEDIA TELEPHONE ----------------------------------------*/
+
+@media screen and (max-width: 768px){
+/*  --------------------HEADER-------------------- */
+header{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+
+}
+.div-logo {
+   display: flex;
+   justify-content: center;
+}
+.navbar-booki{
+	padding-top: 20px;
+	display: flex;
+}
+.aheader {
+    margin: auto;
+	padding-top:20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 10px;
+}
+.aheader:hover{
+    border-bottom:2px solid #0065FC;
+	padding: 0;
+}
+
+
+/* -----------FILTRE----------- */
+
+.filtres{
+	margin-right: 400px;
+}
+
+
+.hebergement-main{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.hebergements{
+	width: 100%; 
+	padding: 0;
+	
+}
+
+
+
+
+aside{
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+
+/*  ---------ACTIVITE ------------*/
+
+#section-activitees{
+	display: flex;
+	flex-direction: column;
+}
+#section-activitees div{
+	width: 100%;
+    display: flex;
+    height: auto;
+	padding: 0;
+	margin: auto;
+    }
+
+#section-activitees div img{
+	width: 100%;
+	height: 140px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+/*---------------- FOOTER------------ */
+
+footer{
+	display: flex;
+	flex-direction: column;
+}
+
+}

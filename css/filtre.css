@@ -67,3 +67,9 @@
     
 }
 
+.txt-filtre:hover{
+    cursor:crosshair;
+    background-color: #0065FC;
+}
+
+

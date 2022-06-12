@@ -1,11 +1,14 @@
-.section-activitees {
+/*  Le hover est sur le figure dans hebergement  */
+
+
+#section-activitees {
     display: flex;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 8px;
     }
 
 .h2-activitémarseille{
-    margin-left: 40px;
+    margin-left:55px;
     margin-bottom: -10px;
     margin-top: 70px;
 }
@@ -124,9 +127,5 @@ div.divact {
 .lien-activite{
     text-decoration: none;
     color:black ;
-    transition: transform .1s;
 }
 
-.lien-activite:hover{
-    transform: scale(1.01);
-}

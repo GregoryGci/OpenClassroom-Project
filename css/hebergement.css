@@ -12,7 +12,7 @@
 {
 	display: flex;
 	margin-top: 10px;
-	margin-left:35px;
+	margin-left:40px;
 	margin-right: 20px;
 	margin-bottom: 10px;
 }
@@ -30,7 +30,7 @@
 	padding-bottom: 30px;
 }
 
-.card-hebergement
+#card-hebergement
 {
 	display: flex;
 	flex-direction: row;
@@ -47,6 +47,7 @@ article
 	line-height: 10px;
 	margin-top: 25px;	
 	background-color: white;
+	transition: transform 0.3s;
 }
 
 article img
@@ -70,8 +71,9 @@ article img
     text-decoration: none;
     color:rgb(0, 0, 0) ;
 }
- .acard:visited {
-    color:none;
+ 
+article:hover{
+	transform: scale(1.05);
 }
 
 .afficherplus{
@@ -95,6 +97,13 @@ article img
 /* Section "Les plus populaires" */
 .titre-marseille{
 	margin-bottom: -20px;
+}
+
+figure{
+	transition: transform 0.3s;
+}
+figure:hover{
+	transform: scale(1.05);
 }
 aside {
 
@@ -175,3 +184,4 @@ figcaption span
 	padding-right: 25px;
 	padding-top: 10px;
 }
+

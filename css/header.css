@@ -1,4 +1,17 @@
 /* CSS HEADER */
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body { 
+    margin-top: 40px;
+}
+header {
+    margin-left:55px;
+    margin-right:auto;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
 
 .booki-img {
     width: 16%;
@@ -7,24 +20,22 @@
 .div-logo{
     width: 50%;
 }
-.navbar-booki{
-    width: 80%;
+.navbar-booki {
+    display: inline flex;
+    padding-right: 10px;
 }
-navbar ul {
-    list-style-type:none;
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 50%;
-}
+
 .aheader {
     text-decoration: none;
     color:grey ;
+    padding-right: 30px;
+    padding-left: 10px;
 }
-navbar ul li a:visited {
+.aheader:visited {
     color:none;
 }
-navbar ul li a:hover{
+.aheader:hover{
     color: #0065FC;
     border-top:2px solid #0065FC;
-    padding-top:53px;
+    padding-top:68px;
 }

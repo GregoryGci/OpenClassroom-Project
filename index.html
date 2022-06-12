@@ -3,16 +3,11 @@
   <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       
       <link rel="stylesheet" href="css/fontawesome-free-6.1.1-web/css/all.min.css" />
       <Link rel="styleSheet" href="css/style.css"  />
-      <link rel="stylesheet" href="css/header.css" />
-      <link rel="stylesheet" href="css/searchbar.css" />
-      <link rel="stylesheet" href="css/filtre.css" />
-      <link rel="stylesheet" href="css/hebergement.css" />
-      <link rel="stylesheet" href="css/footer.css" />
-      <link rel="stylesheet" href="css/activite.css" />
+      
       
       <title>P2 Booki</title>
 
@@ -23,13 +18,11 @@
         <!-- Header -->
 
       <header>
-          <div class="div-logo"><img class="booki-img" src="/assets/logo/Booki@3x.png"></div>
-              <navbar class="navbar-booki">
-                    <ul>
-                      <li><a class="aheader" href="#">Hébergements</a></li>
-                      <li><a class="aheader" href="#">Activités</a></li>
-                  </ul>
-              </navbar>
+          <div class="div-logo"><img class="booki-img" src="assets/logo/Booki@3x.png" alt="logo du site"></div>
+              <div class="navbar-booki">
+                      <a class="aheader" href="#card-hebergement">Hébergements</a>
+                      <a class="aheader" href="#section-activitees">Activités</a>
+              </div>
       </header>
 
 
@@ -38,10 +31,10 @@
       <main>
 
           <section class="top-page">
-              <div><h1 class="h1-main"> Trouvez votre hébergement pour des vacances de rêve</h1></br><h2 class="h2-main">En plein centre ville ou en pleine nature</h2></div>
+              <div><h1 class="h1-main"> Trouvez votre hébergement pour des vacances de rêve</h1><br><h2 class="h2-main">En plein centre ville ou en pleine nature</h2></div>
               
                   <div class="Searchbar-section">
-                      <form action="" method="post" class="form">
+                      <form action="action_page.php" method="post" class="form">
                           <span class="formdiv">
                               <label for="searchbar"><i class="fa-solid fa-location-dot"></i></label>
                               <input class="inputsearch" type="text" value="   Marseille, France" name="searchbar" id="searchbar" required>
@@ -63,7 +56,7 @@
               </div>
               
               <div class="info">
-                  <span class="fa-solid fa-info"></span><p class="infotxt">Plus de 500 logements sont disponibles dans cette ville</p></span>
+                  <span class="fa-solid fa-info"></span><p class="infotxt">Plus de 500 logements sont disponibles dans cette ville</p>
               </div>
           </section>
 
@@ -76,7 +69,7 @@
             
             <section class="hebergements">
               <div class="titre-marseille"><h2>Hébergement à Marseille</h2></div>
-                <div class="card-hebergement">
+                <div id="card-hebergement">
                   <article>
                   <a class="acard" href="#">
                     <p>
@@ -256,7 +249,7 @@
           <!-- SECTION ACTIVITEES -->
 
           <div class="h2-activitémarseille"><h2>Activités à Marseille</h2></div>
-          <section class="section-activitees">
+          <section id="section-activitees">
             
             <div class="activite-vieux-port divact">
               <a class="lien-activite" href="#">
