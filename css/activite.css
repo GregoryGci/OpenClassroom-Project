@@ -24,7 +24,8 @@
     .card-vieuxport {
         margin: 0;
         border-radius: 20px;
-        box-shadow: 0 4px 4px #c0c0c0;       
+        box-shadow: 0 4px 4px #c0c0c0;  
+             
     }
         .img-vieuxport {
             object-fit: cover;
@@ -48,7 +49,7 @@
         .img-pomegues {
             object-fit: cover; 
             width: 100%;
-            height: 190px;
+            height: 186px;
             }
         
 

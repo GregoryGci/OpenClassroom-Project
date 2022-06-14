@@ -30,12 +30,13 @@ header {
     color:grey ;
     padding-right: 30px;
     padding-left: 10px;
+    padding-top: 21%;
 }
 .aheader:visited {
     color:none;
 }
 .aheader:hover{
     color: #0065FC;
-    border-top:2px solid #0065FC;
-    padding-top:68px;
+    border-top:4px solid #0065FC;
+    padding-top:21%;;
 }

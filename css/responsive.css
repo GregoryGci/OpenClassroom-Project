@@ -35,9 +35,31 @@
 aside{
 	width: 100%;
 	margin: auto;
-	padding: 0;
+	padding-right: 0;
+	padding-left: 0;
 }
+
+
+
+/* ------------------ACTIVITE------------------- */
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -90,6 +112,8 @@ header{
 
 .top-page{
 	margin: 0;
+	margin-left:4%;
+	margin-top: 20px;
 }
 /* --------------SEARCHBAR------------- */
 
@@ -109,6 +133,8 @@ header{
 .filtres{
 	margin-right: 400px;
 }
+
+
 /* -------------------HBERGEMEMENT----------------- */
 
 .hebergement-main{
@@ -126,7 +152,7 @@ header{
 .hebergements{
 	margin:0;
 	margin-left:3%;
-	margin-right: 4% ;
+	margin-right: 5% ;
 	padding: 0;
 	background: none;
 }
@@ -157,6 +183,8 @@ aside{
 	margin: 0;
 	padding: auto;
 	width: auto;
+	margin-left:3%;
+	margin-right: 3% ;
 	
 }
 #section-activitees div{
@@ -176,7 +204,10 @@ aside{
 	height: 140px;	
 }
 
-
+.h2-activitémarseille{
+	margin:0 ;
+	margin-left:3%;
+}
 
 
 }
