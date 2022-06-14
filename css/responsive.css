@@ -6,6 +6,11 @@
     width: 90px;
     height:auto;
 }
+/* ---------SEARCHBAR-------- */
+
+.icone-loupe{
+	display: none;
+}
 
 /*------------ FILTRE ---------------*/
 .filtre-entier{
@@ -35,14 +40,25 @@ aside{
 }
 
 
+
+
+
+
+
+
+
+
+
 /*--------------------------- MEDIA TELEPHONE ----------------------------------------*/
 
 @media screen and (max-width: 768px){
+
+
 /*  --------------------HEADER-------------------- */
 header{
 	display: flex;
 	flex-direction: column;
-	margin: auto;
+	margin: 0;
 
 }
 .div-logo {
@@ -58,38 +74,78 @@ header{
 	padding-top:20px;
 	padding-left: 60px;
 	padding-right: 60px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	border-bottom:2px solid #F2F2F2;
+	border-top: none;
 }
 .aheader:hover{
+	border-top: none;
     border-bottom:2px solid #0065FC;
-	padding: 0;
+	padding-top:20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 20px;
 }
+/* -------------FILTRE------------- */
 
+.top-page{
+	margin: 0;
+}
+/* --------------SEARCHBAR------------- */
+
+.mot-rechercher{
+	display: none;
+}
+.icone-loupe{
+	display: block;
+}
+.button{
+	width: 50px;
+	
+}
 
 /* -----------FILTRE----------- */
 
 .filtres{
 	margin-right: 400px;
 }
-
+/* -------------------HBERGEMEMENT----------------- */
 
 .hebergement-main{
 	display: flex;
 	flex-direction: column-reverse;
+	margin-bottom: 1060px;
+	margin-right: 0;
+	margin-left: 0;
+}
+#card-hebergement{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+.hebergements{
+	margin:0;
+	margin-left:3%;
+	margin-right: 4% ;
+	padding: 0;
+	background: none;
+}
+.hebergements article{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
 }
 
-.hebergements{
-	width: 100%; 
-	padding: 0;
-	
-}
 
 
 
 
 aside{
+	border-radius: 0px;
+	width: 100%;
 	padding-bottom: 30px;
 	margin-bottom: 20px;
+
 }
 
 
@@ -98,23 +154,32 @@ aside{
 #section-activitees{
 	display: flex;
 	flex-direction: column;
+	margin: 0;
+	padding: auto;
+	width: auto;
+	
 }
 #section-activitees div{
 	width: 100%;
     display: flex;
     height: auto;
 	padding: 0;
-	margin: auto;
-    }
-
-#section-activitees div img{
-	width: 100%;
-	height: 140px;
 	margin: 0;
-	padding: 0;
+    }
 	
+#section-activitees .lien-activite{
+	width: 100%;
 }
 
+#section-activitees div img{
+	width:100%;
+	height: 140px;	
+}
+
+
+
+
+}
 /*---------------- FOOTER------------ */
 
 footer{
@@ -122,4 +187,4 @@ footer{
 	flex-direction: column;
 }
 
-}
+
