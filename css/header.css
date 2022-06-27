@@ -5,7 +5,7 @@
 body { 
     margin-top: 40px;
 }
-header {
+nav {
     margin-left:55px;
     margin-right:auto;
     display: flex;
@@ -32,9 +32,7 @@ header {
     padding-left: 10px;
     padding-top: 21%;
 }
-.aheader:visited {
-    color:none;
-}
+
 .aheader:hover{
     color: #0065FC;
     border-top:4px solid #0065FC;
