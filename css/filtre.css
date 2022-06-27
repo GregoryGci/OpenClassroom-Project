@@ -72,7 +72,7 @@
 .txt-filtre:hover{
     cursor:pointer;
     background-color: #DEEBFF;
-   
+    border-color: #DEEBFF;
 }
 
 
